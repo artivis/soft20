@@ -1,4 +1,6 @@
-#Catkinization of the SOFT 2.0 package to use it directly with ROS
+#Catkinization of the SOFT 2.0 package
+
+For ROS use purpose
 
 **For more information about SOFT 2.0 please see :**
 
