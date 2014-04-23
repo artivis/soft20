@@ -7,7 +7,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 
 catkin_package(
-
+INCLUDE_DIRS include
+LIBRARIES soft20-sym soft20-fftw soft20-common
 )
 
 
@@ -62,7 +63,7 @@ add_library(	soft20-fftw
 		src/lib1/wrap_soft_fftw.c
 		src/lib1/wrap_soft_fftw_cor2.c
 )
-target_link_libraries(soft20-fftw -lfftw3)
+target_link_libraries(soft20-fftw fftw3)
 
 add_library(	soft20-common
 
